@@ -1,0 +1,7 @@
+app : 
+    gcc -o lms main.c chapitre.c lecon.c motcle.c qcm.c utils.c persistence.c progression.c menu.c
+    .\lms
+
+test : 
+    gcc -o test_unitaire test_unitaire.c chapitre.c lecon.c motcle.c qcm.c utils.c persistence.c progression.c menu.c
+    .\test_unitaire
